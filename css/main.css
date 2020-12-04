@@ -97,7 +97,7 @@ textarea {
 
 
 html {
-  background-color: #fff;
+  background-color: black;
   height: 100%;
 }
 
@@ -106,7 +106,27 @@ body {
   padding: 2em;
   font-size: 1.25em;
   height: 100%;
-  background-color: #f2f2f2;
+  background-color: black;
+  background: url("../img/purple-keyboard.jpg");
+
+}
+
+header {
+  font-size: 3em;
+  color: #e6ccff;
+  font-family: "Shadows Into Light", sans-serif;
+  font-weight: normal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  font-size: 2em;
+  color: #e6ccff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .wrapper {
@@ -126,16 +146,25 @@ body {
   line-height: 1.5em;
   font-size: 1.2em;
   justify-content: center;
-  background-color: #f2e6ff;
+  background-color: #f2ecff;
   height: 300px;
-  padding: 20px;
+  padding: 10px 20px;
   margin: 10px;
   text-align: justify;
   width: 30%;
 }
 
+footer {
+  color: #f2e6ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: .8em;
+}
 
-
+footer span {
+  text-decoration: underline;
+}
 
 /* ==========================================================================
    Helper classes
